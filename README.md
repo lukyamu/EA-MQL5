@@ -1,23 +1,26 @@
-# EA-FT - MQL5 Expert Advisor
+# EA-MQL5 - MetaTrader 5 Expert Advisor
 
-![MQL5](https://img.shields.io/badge/MetaTrader-5-0078d7) 
+![MQL5](https://img.shields.io/badge/Platform-MetaTrader%205-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Risk](https://img.shields.io/badge/Risk-High-red)
 
-**Algorithmic Trading EA for XAU/USD (Gold) & EUR/USD**  
-*Optimized for scalping and momentum strategies with built-in risk controls*
+Automated trading system for **Gold (XAU/USD)** and **EUR/USD** with advanced risk management.
 
----
+## 📌 Quick Start
+1. Download `EA_MQL5.mq5` from `/Experts`
+2. Copy to your MT5 `Experts` folder
+3. Compile in MetaEditor (Press F7)
 
-## Key Features
-- 🎯 **ATR-Based Dynamic Stops** - Adaptive risk management
-- 📊 **RSI Trend Filtering** - Avoid overbought/oversold traps
-- 🚨 **News Event Avoidance** - Skips high-impact economic events
-- ⚡ **Multi-Timeframe Confirmation** (M5 + H1 analysis)
+## ✨ Key Features
+| Feature | Description |
+|---------|-------------|
+| **ATR Stops** | Dynamic stop-loss based on volatility |
+| **RSI Filter** | Avoids overbought/oversold zones |
+| **News Filter** | Skips high-impact economic events |
 
----
+## ⚠️ Risk Warning
+- Always test in demo account first
+- Requires $100+ minimum balance
+- Not recommended for Sundays/holidays
 
-## Installation
-1. Clone repository:
-   ```bash
-   git clone https://github.com/lukyamu/EA-FT.git
+## 📂 Repository Structure
